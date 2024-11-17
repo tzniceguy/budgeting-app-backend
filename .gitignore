@@ -4,4 +4,4 @@ __pycache__/
 
 # Django #
 *.log
-db.sqlite
+db.sqlite3
