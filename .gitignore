@@ -1,7 +1,52 @@
+# Ignore database file
+db.sqlite3
+
+# Ignore Python cache files
 __pycache__/
 *.py[cod]
-*$py.class
 
-# Django #
+# Ignore Django migrations
+migrations/
+*/migrations/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore compiled files
+*.pyc
+*.pyo
+
+# Ignore logs
 *.log
-db.sqlite3
+
+# Ignore static and media files (if applicable)
+staticfiles/
+media/
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore pytest
+.pytest_cache/
